@@ -14,3 +14,14 @@ Sat, May 17, 2025 11:21:13 PM:
  tests:  2|4
 total_score: 15/70
 010bf18
+Sat, May 17, 2025 11:32:28 PM: 
+ sudoku.c | 25 +++++++++++++++++++++++++
+ 1 file changed, 25 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:49:9: error: unused variable 'k' [-Werror=unused-variable]
+     int k = 0;
+         ^
+cc1.exe: all warnings being treated as errors
+f48f2c6
