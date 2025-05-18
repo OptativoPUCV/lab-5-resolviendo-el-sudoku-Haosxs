@@ -25,3 +25,12 @@ sudoku.c:49:9: error: unused variable 'k' [-Werror=unused-variable]
          ^
 cc1.exe: all warnings being treated as errors
 f48f2c6
+Sat, May 17, 2025 11:32:42 PM: 
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:49:9: error: unused variable 'k' [-Werror=unused-variable]
+     int k = 0;
+         ^
+cc1.exe: all warnings being treated as errors
+0ba4091
