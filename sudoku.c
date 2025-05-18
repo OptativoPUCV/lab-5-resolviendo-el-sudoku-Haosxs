@@ -44,10 +44,8 @@ void print_node(Node* n){
 }
 
 int is_valid(Node* n) {
-    int i = 0;
-    int j = 0;
-    int k = 0;
-
+    int i;
+    int j;
     for (i = 0; i < 9; i++) {
         int seen[10] = {0};
         for (j = 0; j < 9; j++) {
