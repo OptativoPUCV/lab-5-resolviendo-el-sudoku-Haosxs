@@ -72,3 +72,9 @@ sudoku.c:49:9: error: unused variable 'k' [-Werror=unused-variable]
          ^
 cc1.exe: all warnings being treated as errors
 838f9e4
+Sat, May 17, 2025 11:47:28 PM: 
+ sudoku.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  5|3
+total_score: 35/70
+5a62283
